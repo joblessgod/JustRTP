@@ -1,0 +1,6 @@
+name: JustRTP
+version: 1.0
+author: JobLessGod
+main: com.joblessgod.justrtp.JustRTP
+api-version: 1.14
+description: Does Random Teleport!
