@@ -1,0 +1,15 @@
+# config.yml
+UseWorldBorder: false
+# "Biomes: []" means all biomes are allowed! #
+# Biomes are optional, more biomes at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html
+Biomes: []
+MaxRadius: 100
+MinRadius: 10
+# If "UseWorldBorder" is set to true above, Center X and Z will be ignored!
+CenterX: 0
+CenterZ: 0
+Shape: 'square'
+MaxY: 320
+MinY: 0
+RTPOnDeath: false
+RTPCountdown: 5 # Default countdown time in seconds before teleport

@@ -4,3 +4,13 @@ author: JobLessGod
 main: com.joblessgod.justrtp.JustRTP
 api-version: 1.14
 description: Does Random Teleport!
+commands:
+  rtp:
+    description: Randomly teleports a player based on the configuration.
+    usage: /rtp
+    permission: justrtp.use
+    permission-message: You do not have permission to use this command.
+permissions:
+  justrtp.use:
+    description: Allows the player to use the /rtp command.
+    default: true
